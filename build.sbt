@@ -2,7 +2,7 @@ name := "Demo"
 
 version := "1.8.2"
 
-scalaVersion := "2.13.10"
+scalaVersion := "2.12.15"
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
